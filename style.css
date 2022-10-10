@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+body {
+  background-color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+  height: 100vh;
+  background-color: #621ed1;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin: 5px 5px;
+  color: #fff;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+  height: 10vh;
+  padding: 2rem 5rem;
+}
+.navBar img {
+  width: 4rem;
+}
+.nav-menu {
+  display: flex;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.nav-items li {
+  list-style: none;
+}
+.btn-trail {
+  background-color: #0fd6e0;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 8px 14px;
+  margin-left: 2rem;
+}
+.main-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left-01 h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.left-01 p {
+  margin-top: 1rem;
+  font-size: 10px;
+  font-weight: 300;
+}
+.right-01 img {
+  width: 33rem;
+}
+.middle {
+  /* border: 2px solid black; */
+  height: 100vh;
+  width: 100vw;
+  margin-top: 4rem;
+}
+.features-sec {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-02 img {
+  width: 42vw;
+}
+.rigt-02 {
+  margin-top: 5rem;
+}
+.rigt-02 h1 {
+  font-size: 1.32rem;
+  font-weight: 700;
+}
+.content {
+  margin-top: 3rem;
+}
+.description {
+  margin-bottom: 1.5rem;
+}
+.description h4 {
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.description p {
+  font-size: 10px;
+  margin-left: 12px;
+}
+.i1 {
+  color: #e6711e;
+}
+.i2 {
+  color: #139713;
+}
+.i3 {
+  color: rgb(38, 65, 163);
+}
+footer h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+.card {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin-right: 2rem;
+  box-shadow: 2px 2px 4px rgb(38, 37, 37);
+  text-align: center;
+  padding: 15px 15px;
+}
+
+.analytics {
+  width: 3rem;
+}
+.secured-img {
+  width: 4rem;
+}
+.service-img {
+  width: 4rem;
+}
+.card-1 {
+  margin-top: 3rem;
+}
+.card-1 h4 {
+  font-size: 1rem;
+}
+.card-1 p {
+  font-size: 10px;
+}
+  
+/* media-queries */
+@media  screen and (max-width:720px)  {
+  .nav-items {
+    display: none;
+  }
+  .navBar {
+    text-align: center;
+  }
+  .btn-trail {
+    font-size: 8px;
+    padding: 6px 12px;
+    margin-left: 0;
+  }
+  .header {
+    height: 100%;
+    background-color: #621ed1;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin: 0;
+    color: #fff;
+  }
+  .main-header {
+    flex-direction: column;
+  }
+  .left-01 h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .left-01 p {
+    margin-top: 1rem;
+    font-size: 10px;
+    font-weight: 300;
+  }
+  .right-01 img {
+    width: 80%;
+  }
+  .middle {
+    height: 100%;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .features-sec {
+    /* border: 2px solid black; */
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .left-02 img {
+    width: 50%;
+  }
+  .rigt-02 {
+    /* margin-top: 3rem; */
+  }
+  .rigt-02 h1 {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .content {
+    margin-top: 2rem;
+  }
+  .description {
+    margin-bottom: 1rem;
+  }
+  .description h4 {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .description p {
+    font-size: 10px;
+    margin-left: 0;
+  }
+  footer h1 {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .cards {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .card {
+    border: 2px solid #fff;
+    border-radius: 2px;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .analytics {
+    width: 3rem;
+  }
+  .secured-img {
+    width: 4rem;
+  }
+  .service-img {
+    width: 4rem;
+  }
+  .card-1 {
+    margin-top: 3rem;
+  }
+  .card-1 h4 {
+    font-size: 1rem;
+  }
+  .card-1 p {
+    font-size: 10px;
+  }
+
+}
